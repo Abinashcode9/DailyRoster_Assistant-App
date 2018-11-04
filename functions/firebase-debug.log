@@ -1,0 +1,27 @@
+[debug] [2018-08-18T17:28:11.436Z] ----------------------------------------------------------------------
+[debug] [2018-08-18T17:28:11.499Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-08-18T17:28:11.499Z] CLI Version:   4.0.0
+[debug] [2018-08-18T17:28:11.499Z] Platform:      win32
+[debug] [2018-08-18T17:28:11.499Z] Node Version:  v8.11.2
+[debug] [2018-08-18T17:28:11.574Z] Time:          Sat Aug 18 2018 22:58:11 GMT+0530 (India Standard Time)
+[debug] [2018-08-18T17:28:11.574Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-18T17:28:11.763Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-18T17:28:11.763Z] > authorizing via signed-in user
+[debug] [2018-08-18T17:28:11.778Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-08-18T17:28:11.778Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/D13Mg825G2-2XZ_Zynlw-qwSR6XhvIuPJFKGvFTf_CferojuFXHdOJP6zKuhR6Da',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Aug 18 2018 22:58:11 GMT+0530 (India Standard Time)
+[debug] [2018-08-18T17:28:13.345Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-18T17:28:13.565Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/bafyc-dailyroster  
+  
+ Sat Aug 18 2018 22:58:13 GMT+0530 (India Standard Time)
+[debug] [2018-08-18T17:28:19.250Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-18T17:28:19.250Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/bafyc-dailyroster/tokens  
+  
+ Sat Aug 18 2018 22:58:19 GMT+0530 (India Standard Time)
+[debug] [2018-08-18T17:28:20.787Z] <<< HTTP RESPONSE 200
